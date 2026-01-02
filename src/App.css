@@ -1,0 +1,117 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: #002252;
+}
+
+.calculator {
+  background: black;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  width: 260px;
+}
+
+#display {
+  width: 92%;
+  height: 50px;
+  font-size: 1.5rem;
+  text-align: right;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #c5c5c5;
+  border-radius: 8px;
+  color: white;
+}
+
+.button-container{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 10px;
+}
+
+.btn{
+  height: 50px;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #ebaa25;
+  cursor: pointer;
+}
+
+.btn-oparator{
+  height: 50px;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  border: none;
+  background-color: #027cff;
+  color: white;
+}
+
+.btn-oparator:hover {
+  background-color: #0065d0;
+  cursor: pointer;
+}
+
+.btn-C{
+  height: 50px;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  border: none;
+  background-color: #dc3545;
+  color: white;
+}
+
+.btn-C:hover {
+  background-color: #ca0014;
+  cursor: pointer;
+}
+
+.btn-equal{
+  width: 48%;
+  height: 3rem;
+  background-color: #28a745;
+  border: none;
+  border-radius: 10px;
+  color: whitesmoke;
+  margin-top: 10px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.btn-equal:hover {
+  background-color: #1a6e2e;
+  cursor: pointer;
+}
+
+.btn-del{
+  width: 48%;
+  height: 3rem;
+  background-color: #dc3545;
+  border: none;
+  border-radius: 10px;
+  color: whitesmoke;
+  margin-top: 10px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.btn-del:hover {
+  background-color: #ca0014;
+  cursor: pointer;
+}
+
+
+.del-equal-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
